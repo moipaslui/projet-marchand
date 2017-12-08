@@ -1,0 +1,38 @@
+#logo
+{
+	float:left;
+	width:10%;
+}
+
+#handspinner
+{
+	width:10%;
+}
+
+h1
+{
+	text-align:center;
+}
+
+form
+{
+	text-align:right;
+	display:inline-block;
+}
+
+h2
+{
+	display:inline-block;
+}
+
+#produit
+{
+	display:inline-block;
+	
+}
+
+section
+{
+	display:inline-block;
+	vertical-align:top;
+}
