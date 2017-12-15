@@ -1,38 +1,60 @@
 #logo
 {
 	float:left;
-	width:50px;
+	width:100px
 }
 
-#handspinner
+.handspinner
 {
 	width:200px;
+	
 }
 
 h1
 {
 	text-align:center;
+	width:100%
 }
 
-form
+table.barre
 {
-	text-align:right;
+	width:100%;
+	text-align:center;
+	background-color:lightblue;
+	border:solid 1px black; 
+}	
+
+.gauche
+{
+	float:left;
+}
+
+.droite
+{
+	float:right;
+}
+
+td.barre
+{
 	display:inline-block;
+	font-size:20px;
+	padding-top:0.85em;
+	padding-left:0.75em;
+	padding-right:0.75em;
 }
 
 h2
 {
-	display:inline-block;
+	text-align:center;
+	width:100%;
 }
 
-#produit
+table.produit
 {
-	display:inline-block;
-	
 }
 
-section
+.produit td
 {
-	display:inline-block;
-	vertical-align:top;
+	border:solid 1px black;
+	padding:0.5em
 }

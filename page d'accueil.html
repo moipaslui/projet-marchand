@@ -1,25 +1,38 @@
 <html>
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/accueil.css">
-    <title>Marchandisio - Les meilleures promos</title>
-  </head>
-  <body>
-  <img id="logo" src="assets/img/hippocampelogo.jpg">
-  <h1> Marchandisio </h1>
-  <h2> Bienvenue sur <strong>Marchandisio</strong>, le site marchand avec les meilleures promos </h2>
-  <form action="recherche.html">
-	<input name="produit" placeholder="Rechercher un produit">
-	<button> Go ! </button>
-  </form>
-  <p> Les promos flash du jour ! </p>
-  <section>
-	<img src="assets/img/catapulte.jpg">
-	<img id="handspinner" src="assets/img/handspinner.jpg">
-	<p id="produit"> Catapulte à -50% </p>
-	<p id="produit"> Hand-spinner premium à -80% </p>
-  </section>
-  
-  
-  </body>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/accueil.css">
+		<title>Marchandisio - Les meilleures promos</title>
+	</head>
+	<body>
+		<img id="logo" src="assets/img/hippocampelogo.jpg">
+		<h1> Marchandisio </h1>
+		<h2> Bienvenue sur <strong>Marchandisio</strong>, le site marchand avec les meilleures promos </h2>
+		<table class="barre">
+			<tr> 
+				<td class="barre gauche"> Commande </td> 
+				<td class="barre"> Qui sommes-nous ? </td> 
+				<td class="barre droite">   
+					<form action="recherche.html">
+					<input name="produit" placeholder="Rechercher un produit">
+					<button> Go ! </button>
+					</form>
+				</td>
+			</tr>
+		</table>
+		<p> Les promos flash du jour ! </p>
+		<section >
+			<table class="produit">
+				<tr class="produit">
+					<td> <img class="produit" src="assets/img/catapulte.jpg"> </td>
+					<td> <img class="handspinner produit" src="assets/img/handspinner.jpg"> </td>
+				</tr>
+				<tr class="produit">
+					<td> <p class="produit"> Catapulte à -50% </p> </td>
+					<td> <p class="produit"> Hand-spinner premium à -80% </p> </td>
+				</tr>
+			</table>
+		</section>
+		
+	</body>
 </html> 
