@@ -4,12 +4,6 @@
 	width:100px
 }
 
-.handspinner
-{
-	width:200px;
-	
-}
-
 h1
 {
 	text-align:center;
@@ -49,12 +43,14 @@ h2
 	width:100%;
 }
 
-table.produit
+.produit img
 {
+	width:200px
 }
 
 .produit td
 {
 	border:solid 1px black;
-	padding:0.5em
+	padding:0.5em;
+	text-align:center;
 }
