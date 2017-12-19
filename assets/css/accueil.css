@@ -1,3 +1,8 @@
+body
+{
+	margin:0px
+}
+
 #logo
 {
 	float:left;
@@ -15,7 +20,8 @@ table.barre
 	width:100%;
 	text-align:center;
 	background-color:lightblue;
-	border:solid 1px black; 
+	border-top:solid 1px black;
+	border-bottom:solid 1px black; 
 }	
 
 .gauche
@@ -32,9 +38,6 @@ td.barre
 {
 	display:inline-block;
 	font-size:20px;
-	padding-top:0.85em;
-	padding-left:0.75em;
-	padding-right:0.75em;
 }
 
 h2
@@ -45,7 +48,7 @@ h2
 
 .produit img
 {
-	width:200px
+	width:200px;
 }
 
 .produit td
@@ -53,4 +56,15 @@ h2
 	border:solid 1px black;
 	padding:0.5em;
 	text-align:center;
+}
+
+.reduction
+{
+	color:darkorange;
+}
+
+footer
+{
+	position:absolute;
+	bottom:0
 }
