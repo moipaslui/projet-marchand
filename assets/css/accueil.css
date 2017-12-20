@@ -1,27 +1,26 @@
 body
 {
-	margin:0px
+	margin:0px;
 }
 
 #logo
 {
 	float:left;
-	width:100px
+	width:100px;
 }
 
 h1
 {
 	text-align:center;
-	width:100%
+	width:100%;
 }
 
 table.barre
 {
 	width:100%;
 	text-align:center;
-	background-color:lightblue;
 	border-top:solid 1px black;
-	border-bottom:solid 1px black; 
+	border-bottom:solid 1px black;
 }	
 
 .gauche
@@ -46,16 +45,28 @@ h2
 	width:100%;
 }
 
-.produit img
+img.produit
 {
-	width:200px;
+	max-width:200px;
+	height:auto;
 }
 
-.produit td
+div.produit
 {
 	border:solid 1px black;
 	padding:0.5em;
 	text-align:center;
+	border-radius:1em;
+	background-color:#3974d3;
+	color:white;
+}
+
+#affprod
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	flex-direction:row;
 }
 
 .reduction
@@ -65,6 +76,34 @@ h2
 
 footer
 {
-	position:absolute;
-	bottom:0
+	position:fixed;
+	bottom:0;
+	background-color:brown;
+	color:white;
+	width:100%;
+}
+
+header
+{
+	background-color:brown;
+	color:white;
+	width:100%;
+}
+
+em
+{
+	color:lightgrey;
+	text-decoration:line-through;
+}
+
+a
+{
+	text-decoration:none;
+	color:white
+}
+
+a:hover
+{
+	background-color:white;
+	color:brown;
 }

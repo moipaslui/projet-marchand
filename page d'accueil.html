@@ -6,40 +6,33 @@
 		<title>Marchandisio - Les meilleures promos</title>
 	</head>
 	<body>
-		<img id="logo" alt="Logo Hippocampe Marchandisio" src="assets/img/hippocampelogo.jpg">
-		<h1> Marchandisio </h1>
-		<h2> Bienvenue sur <strong>Marchandisio</strong>, le site marchand avec les meilleures promos </h2>
-		<table class="barre">
-			<tr> 
-				<td class="barre gauche"> Commande </td> 
-				<td class="barre droite">   
-					<form action="recherche.html">
-					<input name="produit" placeholder="Rechercher un produit">
-					<button> Go ! </button>
-					</form>
-				</td>
-			</tr>
-		</table>
-		<p> Les promos flash du jour ! </p>
-		<section>
-			<table class="produit">
-				<tr class="produit">
-					<td> <img class="produit" alt="Catapulte" src="assets/img/catapulte.jpg"> </td>
-					<td> <img class="handspinner produit" alt="Handspinner premium" src="assets/img/handspinner.jpg"> </td>
-					<td> <img class="produit poulet" alt="poulet plastique" src="assets/img/poulet.jpg"> </td>
-				</tr>
-				<tr class="produit">
-					<td> <p class="produit"> Catapulte à -50% </p> <p class="produit reduction"> 18,90 € </p> </td>
-					<td> <p class="produit"> Handspinner premium à -80% </p> <p class="produit reduction"> 5,21€ </p></td>
-					<td> <p class="produit"> Poulet en plastique à 35,23% </p> <p class="produit reduction"> 6,15 € </p></td>
+		<header>
+			<h1> Marchandisio </h1>
+			<h2> Bienvenue sur Marchandisio, le bazar du net avec les meilleures promos </h2>
+			<table class="barre">
+				<tr> 
+					<td class="barre gauche"> <a href="commande.html"> Commande </a> </td> 
+					<td class="barre droite">   
+						<form action="recherche.html">
+						<input name="produit" placeholder="Rechercher un produit">
+						<button> Go ! </button>
+						</form>
+					</td>
 				</tr>
 			</table>
-		</section>
+		</header>
+		<p> <strong> Les promos flash du jour ! </strong> </p>
+		<div id="affprod">
+			<div class="produit"> <img class="produit" alt="Catapulte solide" src="assets/img/catapulte.jpg"> <p> Catapulte à -50% </p> <p class="reduction"> 18,90 € <em>28,35€</em> </p> </div>
+			<div class="produit"> <img class="produit" alt="Handspinner premium de qualité" src="assets/img/handspinner.jpg"> <p> Handspinner premium à -80% </p> <p class="reduction"> 5,21€ <em>9,38€</em> </p> </div>
+			<div class="produit"> <img class="produit" alt="Poulet en plastique fantastique" src="assets/img/poulet.jpg"> <p> Poulet en plastique à -35,23% </p> <p class="reduction"> 6,15 € <em>8.32€</em> </p> </div>
+			<div class="produit"> <img class="produit" alt="Décapsuleur de l'OL" src="assets/img/decapsuleur.jpg"> <p> Décapsuleur de nos partenaires LMC </p> <p class="reduction"> 7,97€ </p> </div>
+		</div>
 		
 	<footer>
 	<table>
 		<tr>
-			<td class="footer"> Qui sommes-nous ? </td> 
+			<td class="footer"> <a href="about.html"> Qui sommes-nous ? </a> </td> 
 		</tr>
 	</table>
 	</footer>
