@@ -1,6 +1,7 @@
 body
 {
 	margin:0px;
+	font-family:"Gill Sans Nova",Arial,sans-serif;
 }
 
 #logo
@@ -47,8 +48,7 @@ h2
 
 img.produit
 {
-	max-width:200px;
-	height:auto;
+	width:150px;
 }
 
 div.produit
@@ -59,6 +59,7 @@ div.produit
 	border-radius:1em;
 	background-color:#3974d3;
 	color:white;
+	width:300px;
 }
 
 #affprod
@@ -102,7 +103,13 @@ a
 	color:white
 }
 
-a:hover
+a.lienproduit:hover
+{
+	background-color:white;
+	color:#3974d3
+}
+
+a.lienstandard:hover
 {
 	background-color:white;
 	color:brown;
