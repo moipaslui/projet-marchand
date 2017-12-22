@@ -1,100 +1,24 @@
 body
 {
-	margin:0px;
+	margin:0;
+	background: brown;
 	font-family:"Gill Sans Nova",Arial,sans-serif;
-}
-
-#logo
-{
-	float:left;
-	width:100px;
-}
-
-h1
-{
-	text-align:center;
-	width:100%;
-}
-
-table.barre
-{
-	width:100%;
-	text-align:center;
-	border-top:solid 1px black;
-	border-bottom:solid 1px black;
-}	
-
-.gauche
-{
-	float:left;
-}
-
-.droite
-{
-	float:right;
-}
-
-td.barre
-{
-	display:inline-block;
-	font-size:20px;
-}
-
-h2
-{
-	text-align:center;
-	width:100%;
-}
-
-img.produit
-{
-	width:150px;
-}
-
-div.produit
-{
-	border:solid 1px black;
-	padding:0.5em;
-	text-align:center;
-	border-radius:1em;
-	background-color:#3974d3;
-	color:white;
-	width:300px;
-}
-
-#affprod
-{
-	display:flex;
-	justify-content:space-around;
-	flex-wrap:wrap;
-	flex-direction:row;
-}
-
-.reduction
-{
-	color:darkorange;
-}
-
-footer
-{
-	position:fixed;
-	bottom:0;
-	background-color:brown;
-	color:white;
-	width:100%;
 }
 
 header
 {
 	background-color:brown;
 	color:white;
-	width:100%;
 }
 
-em
+h1
 {
-	color:lightgrey;
-	text-decoration:line-through;
+	text-align:center;
+}
+
+h2
+{
+	text-align:center;
 }
 
 a
@@ -113,4 +37,98 @@ a.lienstandard:hover
 {
 	background-color:white;
 	color:brown;
+}
+
+table.barre
+{
+	width:100%;
+	text-align:center;
+	border-top:solid 2px dodgerblue;
+	border-bottom:solid 2px dodgerblue;
+}
+
+td.barre
+{
+	display:inline-block;
+	font-size:20px;
+}
+
+.gauche
+{
+	float:left;
+}
+
+.droite
+{
+	float:right;
+}
+
+img.produit
+{
+	width:150px;
+}
+
+.affprod
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+
+em
+{
+	color:lightgrey;
+	text-decoration:line-through;
+}
+
+.reduction
+{
+	color:darkorange;
+}
+
+div.produit
+{
+	border:solid 1px black;
+	padding:0.5em;
+	text-align:center;
+	border-radius:1em;
+	background-color:dodgerblue;
+	color:white;
+	width:300px;
+	margin-bottom:2em;
+}
+
+p.titrecat
+{
+	text-align:center;
+	color:blue;
+	font-variant: small-caps;
+	font-weight: bolder;
+
+}
+
+div#promos
+{
+	margin-top:2em;
+}
+
+footer
+{
+	border-top: solid 2px dodgerblue;
+	position:relative;
+	margin-top:50px;
+	background-color:brown;
+	color:white;
+	width:100%;
+}
+
+li.connaitre
+{
+	font-weight: bold;
+}
+
+footer ul
+{
+	list-style: none;
 }
