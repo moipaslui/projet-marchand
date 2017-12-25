@@ -21,18 +21,82 @@
 				</tr>
 			</table>
 		</header>
-		<div class="produit">
-      <img class="produit" alt="Maillot de l'US Orléans" src="assets/img/maillotuso.png">
-      <li>
-        <ul class="nomprod carac"> Maillot de l'US Orléans </ul>
-        <ul class="carac"> Prix : 10€ </ul>
-        <ul class="carac"> Motifs disponibles : Domicile, Alternatif, Exterieur </ul>
-        <ul class="carac"> Maillots en stock : 45 </ul>
-      </li>
-    </div>
-    <div id="descprod">
-      <p class="desc droite "> Ce sublime maillot de l'équipe légendaire de l'US Orléans est disponible au meilleur prix sur Marchandisio, il saura ravir les petits et les grands qui pourront porter le maillot de leur joueur préféré ! <p>
-    </div>
+		<div class="corps">
+			<div class="produit">
+	      <img class="produit" alt="Maillot de l'US Orléans" src="assets/img/maillotuso.png">
+	      <li>
+	        <ul class="nomprod carac"> <h3>Maillot de l'US Orléans </h3></ul>
+	        <ul class="carac"> Prix : 10€ </ul>
+	        <ul class="carac"> Motifs disponibles : Domicile, Alternatif, Exterieur </ul>
+	        <ul class="carac"> Maillots en stock : 45 </ul>
+	      </li>
+	    </div>
+			<ul id="infosutile">
+				<li>
+			    <div id="descprod">
+						<h3> Description du produit : </h3>
+			      <p class="desc"> Ce sublime maillot de l'équipe légendaire de l'US Orléans est disponible au meilleur prix sur Marchandisio, il saura ravir les petits et les grands qui pourront porter le maillot de leur joueur préféré !</p>
+						<p class="desc"> 10 joueurs sont disponibles ainsi que 3 motifs ! </p>
+			    </div>
+				</li>
+				<li>
+					<div id="noteperso">
+						<h3> Donnez votre avis ! </h3>
+						<p> Vous possédez cet article ? Donnez-votre avis ici. </p>
+						<form>
+							<textarea placeholder="Donnez votre avis !"> </textarea>
+							<button> Envoyer </button>
+						</form>
+					</div>
+				</li>
+				<li>
+					<div id="commutil">
+						<h3> Avis des utilisateurs : </h3>
+						<ul>
+							<li> <p class="comm"> <strong>Karim Z. : </strong> <q> Ce maillot est vraiment super ! Je l'ai commandé pour mon enfant fan de Pierre Bouby et il a adoré ! En plus, c'est vraiment le moins cher parmi tous les sites concurrents ! </q> </p> </li>
+							<li> <p class="comm"> <strong>Bernard B. : </strong> <q> Excellente qualité de tissu pour pas cher, c'est vraiment du lourd ! </q> </p> </li>
+							<li> <p class="comm"> <strong>Cardagan M. : </strong> <q> Merci à Marchandisio de me permettre de supporter l'US Orléans comme il se doit grâce à ce fantastique maillot ! </q> </p> </li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div id="achat">
+				<p> Vous désirez acheter ce produit ? Rien de plus simple ! </p>
+				<p> Choisissez tout d'abord le motif : </p>
+				<form action="file:///C:/Users/moipaslui/Documents/Web/commande.html	">
+					<select name="motif">
+						<option>Domicile</option>
+						<option>Exterieur</option>
+						<option>Alternatif</option>
+					</select>
+					<p> Puis le joueur : </p>
+					<select name="joueur">
+						<option>H.Benkaid</option>
+						<option>P.Bouby</option>
+						<option>C.Cambon</option>
+						<option>A.Gomis</option>
+						<option>A.Monfray</option>
+						<option>G.Perrin</option>
+						<option>T.Renault</option>
+						<option>E.Seidou</option>
+						<option>L.Nabab</option>
+						<option>K.Ziani</option>
+					</select>
+					<p> Et enfin la taille : </p>
+					<select name="taille">
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+						<option>XL</option>
+						<option>XXL</option>
+					</select>
+					<button> J'ajoute au panier ! </button>
+				</form>
+
+			</div>
+
+		</div>
+
 
 
 	<footer>

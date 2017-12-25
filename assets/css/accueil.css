@@ -68,7 +68,7 @@ img.produit
 	width:150px;
 }
 
-.affprod
+#affprod
 {
 	display:flex;
 	justify-content:space-around;

@@ -65,28 +65,23 @@ td.barre
 
 img.produit
 {
-	width:150px;
+	width:300px;
 }
 
 div.produit
 {
-	border:solid 1px black;
 	padding:0.5em;
 	text-align:center;
-	border-radius:1em;
-	background-color:dodgerblue;
-	color:white;
-	width:300px;
+	max-width:500px;
 	margin-bottom:2em;
-  display:inline-block;
 }
 
-.desc
+.corps
 {
-  background-color: white;
-  border : solid 1px black;
-  border-radius:1em;
-  display:inline-block;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row;
 }
 
 footer
@@ -109,10 +104,44 @@ footer ul
 	list-style: none;
 }
 
+.corps div
+{
+	background-color:dodgerblue;
+	color:white;
+	border:solid 1px black;
+	border-radius:1em;
+	margin:0.5em;
+	padding:0.5em;
+}
+
+
+img.note
+{
+	height:50px;
+}
+
 ul.carac
 {
   padding:0px;
   text-align:left;
+}
+
+#infosutile li
+{
+	display:inline;
+	max-width:500px;
+}
+
+ul#infosutile
+{
+	float:right;
+	padding-left: 0px;
+}
+
+
+li
+{
+	list-style:none;
 }
 
 ul.nomprod
