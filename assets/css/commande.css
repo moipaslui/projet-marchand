@@ -1,21 +1,10 @@
+/* A NE PAS TOUCHE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 body
 {
-	margin:0px;
-  padding:0px;
-  width:100%
+	margin:0;
+	background: brown;
 	font-family:"Gill Sans Nova",Arial,sans-serif;
-}
-
-h1
-{
-	text-align:center;
-	height:30px;
-}
-
-h2
-{
-	text-align:center;
-	height:30px;
 }
 
 header
@@ -24,39 +13,34 @@ header
 	color:white;
 }
 
+h1
+{
+	text-align:center;
+}
+
+h2
+{
+	text-align:center;
+}
+
 a
 {
 	text-decoration:none;
 	color:white
 }
 
-a.lienproduit:hover
-{
-	background-color:white;
-	color:#3974d3
-}
-
-a.lienstandard:hover
-{
-	background-color:white;
-	color:brown;
-}
-
-footer
-{
-	position:fixed;
-	bottom:0;
-	background-color:brown;
-	color:white;
-	width:100%;
-}
-
 table.barre
 {
 	width:100%;
 	text-align:center;
-	border-top:solid 1px black;
-	border-bottom:solid 1px black;
+	border-top:solid 2px dodgerblue;
+	border-bottom:solid 2px dodgerblue;
+}
+
+td.barre
+{
+	display:inline-block;
+	font-size:20px;
 }
 
 .gauche
@@ -69,8 +53,57 @@ table.barre
 	float:right;
 }
 
-td.barre
+footer
 {
-	display:inline-block;
-	font-size:20px;
+	border-top: solid 2px dodgerblue;
+	position:relative;
+	margin-top:50px;
+	background-color:brown;
+	color:white;
+	width:100%;
+}
+
+/* A NE PAS TOUCHE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+h1.formul
+{
+	text-align:left;
+	font-size:22px;
+}
+
+
+form.form
+{
+	padding:0.5em;
+	width:650px;
+}
+
+button.valid
+{
+	padding:1em;
+	width:30%;
+	border-radius:1em;
+	margin-left:750px;
+	background: lightblue
+}
+
+table.formulaire
+{
+	margin-left: 500px;
+	width:100%;
+	border: solid 1px black;
+	margin-bottom:1em;
+	margin-top:1em;
+	background: lightblue
+}
+
+table.formulaire
+{
+	padding-bottom:1em
+}
+
+td.form
+{
+	width:55%
 }
