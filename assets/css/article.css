@@ -76,6 +76,16 @@ div.produit
 	margin-bottom:2em;
 }
 
+ul
+{
+	padding:0px;
+}
+
+.produit li
+{
+	padding-top:0.5em
+}
+
 .corps
 {
 	display:flex;
@@ -92,9 +102,11 @@ footer
 	background-color:brown;
 	color:white;
 	width:100%;
+	display:flex;
+	justify-content: space-around;
 }
 
-li.connaitre
+li.debutul
 {
 	font-weight: bold;
 }
@@ -114,10 +126,21 @@ footer ul
 	padding:0.5em;
 }
 
-
-img.note
+#formulaire *
 {
-	height:50px;
+	display:inline-block;
+	margin-left: 0.96em;
+}
+
+
+p#acheter
+{
+	text-align: center;
+}
+
+div#formulaire
+{
+	border-width: 0px;
 }
 
 ul.carac
@@ -137,7 +160,6 @@ ul#infosutile
 	float:right;
 	padding-left: 0px;
 }
-
 
 li
 {

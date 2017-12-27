@@ -97,9 +97,11 @@ footer
 	background-color:brown;
 	color:white;
 	width:100%;
+	display:flex;
+	justify-content: space-around;
 }
 
-li.connaitre
+li.debutul
 {
 	font-weight: bold;
 }

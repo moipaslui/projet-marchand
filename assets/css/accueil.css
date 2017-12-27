@@ -30,7 +30,7 @@ a
 a.lienproduit:hover
 {
 	background-color:white;
-	color:#3974d3
+	color:dodgerblue
 }
 
 a.lienstandard:hover
@@ -68,7 +68,7 @@ img.produit
 	width:150px;
 }
 
-#affprod
+.affprod
 {
 	display:flex;
 	justify-content:space-around;
@@ -121,9 +121,11 @@ footer
 	background-color:brown;
 	color:white;
 	width:100%;
+	display:flex;
+	justify-content: space-around;
 }
 
-li.connaitre
+li.debutul
 {
 	font-weight: bold;
 }

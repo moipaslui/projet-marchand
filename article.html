@@ -7,11 +7,11 @@
 	</head>
 	<body>
 		<header>
-			<h1> Marchandisio </h1>
+			<h1><a href="page_d'accueil.html" class="lienstandard"> Marchandisio </a></h1>
 			<h2> Bienvenue sur Marchandisio, le bazar du net avec les meilleures promos </h2>
 			<table class="barre">
 				<tr>
-					<td class="barre gauche"> <a class="lienstandard" href="commande.html"> Commande </a> </td>
+					<td class="barre gauche"> <a class="lienstandard" href="commande.html"> Ma commande </a> </td>
 					<td class="barre droite">
 						<form action="recherche.html">
 						<input name="produit" placeholder="Rechercher un produit">
@@ -61,37 +61,39 @@
 				</li>
 			</ul>
 			<div id="achat">
-				<p> Vous désirez acheter ce produit ? Rien de plus simple ! </p>
-				<p> Choisissez tout d'abord le motif : </p>
-				<form action="file:///C:/Users/moipaslui/Documents/Web/commande.html	">
-					<select name="motif">
-						<option>Domicile</option>
-						<option>Exterieur</option>
-						<option>Alternatif</option>
-					</select>
-					<p> Puis le joueur : </p>
-					<select name="joueur">
-						<option>H.Benkaid</option>
-						<option>P.Bouby</option>
-						<option>C.Cambon</option>
-						<option>A.Gomis</option>
-						<option>A.Monfray</option>
-						<option>G.Perrin</option>
-						<option>T.Renault</option>
-						<option>E.Seidou</option>
-						<option>L.Nabab</option>
-						<option>K.Ziani</option>
-					</select>
-					<p> Et enfin la taille : </p>
-					<select name="taille">
-						<option>S</option>
-						<option>M</option>
-						<option>L</option>
-						<option>XL</option>
-						<option>XXL</option>
-					</select>
-					<button> J'ajoute au panier ! </button>
-				</form>
+				<p id="acheter"> Vous désirez acheter ce produit ? Rien de plus simple ! </p>
+				<div id="formulaire">
+					<form action="file:///C:/Users/moipaslui/Documents/Web/commande.html">
+						<p class="choixprod"> Choisissez tout d'abord le motif : </p>
+						<select class="choixprod" name="motif">
+							<option>Domicile</option>
+							<option>Exterieur</option>
+							<option>Alternatif</option>
+						</select>
+						<p class="choixprod"> puis le joueur : </p>
+						<select class="choixprod" name="joueur">
+							<option>H.Benkaid</option>
+							<option>P.Bouby</option>
+							<option>C.Cambon</option>
+							<option>A.Gomis</option>
+							<option>A.Monfray</option>
+							<option>G.Perrin</option>
+							<option>T.Renault</option>
+							<option>E.Seidou</option>
+							<option>L.Nabab</option>
+							<option>K.Ziani</option>
+						</select>
+						<p class="choixprod"> et enfin la taille : </p>
+						<select class="choixprod" name="taille">
+							<option>S</option>
+							<option>M</option>
+							<option>L</option>
+							<option>XL</option>
+							<option>XXL</option>
+						</select>
+						<button class="choixprod"> J'ajoute au panier ! </button>
+					</form>
+				</div>
 
 			</div>
 
@@ -99,14 +101,20 @@
 
 
 
-	<footer>
-		<ul>
-			<li class="connaitre"> Mieux nous connaître </li>
-			<li> A propos de nous </li>
-			<li> Nos objectifs </li>
-			<li> Notre personnel </li>
-		</ul>
-	</footer>
+		<footer>
+			<ul>
+				<li class="debutul"> <a class="lienstandard" href="about.html"> Mieux nous connaître </a> </li>
+				<li> <a class="lienstandard" href="about.html#aboutus"> A propos de nous </a></li>
+				<li> <a class="lienstandard" href="about.html#objectifs"> Nos objectifs </a></li>
+				<li> <a class="lienstandard" href="about.html#qui"> Notre personnel </a></li>
+			</ul>
+			<ul>
+				<li class="debutul"> <a class="lienstandard" href="recherche.html"> Les articles recommandés pour vous </a></li>
+				<li> Les meilleures ventes </li>
+				<li> Les promos en cours </li>
+				<li> Les articles les mieux notés </li>
+			</ul>
+		</footer>
 
 	</body>
 </html>
