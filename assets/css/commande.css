@@ -29,6 +29,18 @@ a
 	color:white
 }
 
+a.lienproduit:hover
+{
+	background-color:white;
+	color:dodgerblue
+}
+
+a.lienstandard:hover
+{
+	background-color:white;
+	color:brown;
+}
+
 table.barre
 {
 	width:100%;
@@ -61,8 +73,19 @@ footer
 	background-color:brown;
 	color:white;
 	width:100%;
+	display:flex;
+	justify-content: space-around;
 }
 
+li.debutul
+{
+	font-weight: bold;
+}
+
+footer ul
+{
+	list-style: none;
+}
 /* A NE PAS TOUCHE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -86,7 +109,7 @@ button.valid
 	padding:1em;
 	width:30%;
 	border-radius:1em;
-	margin-left:250px;
+	margin-left:225px;
 	background: skyblue
 }
 
@@ -111,7 +134,7 @@ table.récap
 	border: solid 1px black;
 	background-color: lightblue;
 	width: 750px;
-	margin-left:500px;
+	margin-left:425px;
 	margin-top: 1em;
 
 }
