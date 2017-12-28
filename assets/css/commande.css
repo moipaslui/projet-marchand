@@ -70,6 +70,7 @@ h1.formul
 {
 	text-align:left;
 	font-size:22px;
+	border-bottom:solid 1px black
 }
 
 
@@ -77,6 +78,7 @@ form.form
 {
 	padding:0.5em;
 	width:650px;
+	margin-left:40px
 }
 
 button.valid
@@ -84,26 +86,58 @@ button.valid
 	padding:1em;
 	width:30%;
 	border-radius:1em;
-	margin-left:750px;
-	background: lightblue
+	margin-left:250px;
+	background: skyblue
 }
 
 table.formulaire
 {
-	margin-left: 500px;
+	
 	width:100%;
 	border: solid 1px black;
 	margin-bottom:1em;
 	margin-top:1em;
-	background: lightblue
-}
-
-table.formulaire
-{
 	padding-bottom:1em
 }
 
+
 td.form
 {
-	width:55%
+	width:70%
 }
+
+table.récap
+{
+	border: solid 1px black;
+	background-color: lightblue;
+	width: 750px;
+	margin-left:500px;
+	margin-top: 1em;
+
+}
+
+td.récaprod
+{
+	width:300px;
+}
+
+img.récaprod
+{
+	width:50%
+}
+
+#tabrécap
+{
+	border-bottom:solid 1px black;
+
+}
+
+#quantite
+{
+	width:8%;
+	padding:0.5em;
+}
+
+
+
+

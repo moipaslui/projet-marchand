@@ -7,7 +7,6 @@
   </head>
   <body>
 
-
     <header>
       <h1><a href="page_d'accueil.html" class="lienstandard"> Marchandisio </a></h1>
       <h2> Bienvenue sur Marchandisio, le bazar du net avec les meilleures promos </h2>
@@ -24,10 +23,22 @@
       </table>
     </header>
 
+	<table class="récap">
+	<tr><td id="tabrécap">
+		<table>
+		<tr><td class="récaprod" colspan=4><h1 class="formul">Récapitulatif de la commande</h1></td></tr>
+		<tr id="tabord"><td class="récaprod"><img class="récaprod" src="assets/img/maillotuso.png"></td>
+			<td class="récaprod"><p>maillot de l'US Orléans Domicile</p><p>prix : 10€</p></td>
+			<td class="récaprod"><label for="quantite">quantité : </label><input id="quantite"></td>
+		</tr>
+		</table>
+	</td></tr>
+		
+	<tr><td>
 		<form class="form">
 
 			<table class="formulaire">
-				<tr><td><h1 class="formul">Entrez vos coordonnés</h1></td></tr>
+				<tr><td colspan=2><h1 class="formul">Entrez vos coordonnés</h1></td></tr>
 				<tr><td><label for="civil">Civilité :</label></td>
 					<td class="form"><select id="civil">
 							<option>M. </option>
@@ -51,7 +62,7 @@
 			</table>
 
 			<table class="formulaire">
-				<tr><td><h1 class="formul">Terminez votre commande</h1></td></tr>
+				<tr><td colspan=2><h1 class="formul">Terminez votre commande</h1></td></tr>
 				<tr><td>Type de carte :</td>
 					<td class="form"><label><input name="type" type="radio" value="v"> Visa</label>
 					<label><input name="type" type="radio" value="m"> MasterCard</label>
@@ -68,6 +79,8 @@
 			<button class="valid">Valider</button>
 
 		</form>
+	</td></tr>
+	</table>
 
 
 	<footer>
