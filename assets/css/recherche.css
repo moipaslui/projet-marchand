@@ -70,14 +70,6 @@ img.produit
 	width:150px;
 }
 
-.affprod
-{
-	display:flex;
-	justify-content:space-around;
-	flex-wrap:wrap;
-	flex-direction:row;
-}
-
 em
 {
 	color:lightgrey;
@@ -87,32 +79,6 @@ em
 .reduction
 {
 	color:darkorange;
-}
-
-div.produit
-{
-	border:solid 1px black;
-	padding:0.5em;
-	text-align:center;
-	border-radius:1em;
-	background-color:dodgerblue;
-	color:white;
-	width:300px;
-	margin-bottom:2em;
-}
-
-p.titrecat
-{
-	text-align:center;
-	color:blue;
-	font-variant: small-caps;
-	font-weight: bolder;
-
-}
-
-div#promos
-{
-	margin-top:2em;
 }
 
 footer
@@ -147,7 +113,6 @@ td.art
 {
 	border-bottom:solid 1px black;
 	padding:1em;
-	/*background-color: dodgerblue      choix indéfini*/
 }
 
 
